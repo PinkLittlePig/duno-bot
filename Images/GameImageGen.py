@@ -1,3 +1,5 @@
+#Used to generate images that can be sent
+
 from PIL import Image, ImageDraw, ImageFont
 from random import randint
 
