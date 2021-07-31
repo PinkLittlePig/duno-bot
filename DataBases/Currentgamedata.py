@@ -9,7 +9,7 @@ bot = botgetclass.bot
 import discord
 
 class CurrentGameDatabase(Database):
-    """Stores games that are ongoing and the values associated with the game"""
+    """Stores games that are ongoing and the values associated with games"""
 
     def __init__(self, tablename='currentgamedata'):
         super().__init__(filename='GameData.db')
